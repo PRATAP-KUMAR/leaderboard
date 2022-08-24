@@ -1,3 +1,84 @@
-.hello {
-  color: red;
+body {
+  background-color: #d3d3d3;
+}
+
+.box {
+  margin: 100px 100px auto 100px;
+  background-color: #fff;
+}
+
+h2 {
+  color: #000;
+  font-size: 60px;
+}
+
+.columnbox {
+  display: flex;
+  gap: 20px;
+}
+
+.column1 {
+  flex: 0.5;
+  height: 500px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  height: 500px;
+  gap: 30px;
+}
+
+.row {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row > button {
+  background-color: #d2d2d2;
+}
+
+.recentscore {
+  font-size: 32px;
+}
+
+.addscore {
+  text-align: center;
+  font-size: 32px;
+}
+
+.form1,
+.form2 {
+  margin: 0 auto;
+}
+
+.form1 > input,
+.form2 > input {
+  height: 30px;
+  width: 200px;
+}
+
+.column2 > button {
+  margin: 0 auto;
+  background-color: #d2d2d2;
+}
+
+.container {
+  margin-left: 50px;
+  border: 2px solid black;
+  background-color: #e8fcee;
+}
+
+.namescore {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.namescore:nth-child(even) {
+  padding-right: 0;
+  font-size: 30px;
+  background-color: #d3d3d3;
 }
