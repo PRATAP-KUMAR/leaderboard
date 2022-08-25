@@ -8,7 +8,6 @@
 
 - html, css , javascript, webpack
 
-<<<<<<< HEAD
 ## Project Setup
 
 To get a local copy, run below commands from your terminal.
@@ -19,13 +18,6 @@ cd leaderboard
 npm install
 npm start
 ````
-=======
-## Getting Started
-
-- To get a local copy up and running follow these simple example steps.
-Code Editor is required
-NPM is required.
->>>>>>> 8760768 (UPDATE README.md, CSS)
 
 ## Authors
 
