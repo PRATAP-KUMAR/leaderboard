@@ -4,10 +4,13 @@ body {
 
 .box {
   margin: 100px 100px auto 100px;
+  border-radius: 40px;
   background-color: #fff;
+  border: 5px #d1d1d1 solid;
 }
 
 h2 {
+  margin-left: 20px;
   color: #000;
   font-size: 60px;
 }
@@ -39,6 +42,7 @@ h2 {
 
 .row > button {
   background-color: #d2d2d2;
+  border-radius: 4px;
 }
 
 .recentscore {
@@ -50,31 +54,38 @@ h2 {
   font-size: 32px;
 }
 
-.form1,
-.form2 {
-  margin: 0 auto;
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
 }
 
-.form1 > input,
-.form2 > input {
-  height: 30px;
+#form > input {
   width: 200px;
+  height: 30px;
+  border-radius: 8px;
 }
 
-.column2 > button {
+#form > button {
   margin: 0 auto;
   background-color: #d2d2d2;
+  border-radius: 4px;
 }
 
 .container {
   margin-left: 50px;
-  border: 2px solid black;
   background-color: #e8fcee;
+  border: 2px solid blue;
+  border-radius: 24px;
+  overflow-y: scroll;
+  height: 450px;
 }
 
 .namescore {
   margin: 20px;
   font-size: 30px;
+  height: auto;
 }
 
 .namescore:nth-child(even) {

@@ -8,6 +8,17 @@
 
 - html, css , javascript, webpack
 
+## Project Setup
+
+To get a local copy, run below commands from your terminal.
+
+````
+git clone https://github.com/PRATAP-KUMAR/leaderboard
+cd leaderboard
+npm install
+npm start
+````
+
 ## Authors
 
 PRATAP
@@ -19,6 +30,8 @@ PRATAP
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+- Issues link: https://github.com/PRATAP-KUMAR/leaderboard/issues
 
 ## Show your support
 
