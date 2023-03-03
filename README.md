@@ -19,6 +19,9 @@ npm install
 npm start
 ````
 
+## Preview
+![1](https://user-images.githubusercontent.com/40719899/222689272-4d72bc45-8295-400f-8475-da90dba35a8c.gif)
+
 ## Authors
 
 PRATAP
